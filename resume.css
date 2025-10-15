@@ -5,14 +5,25 @@ body, html {
 }
 
 
-/* This sectionn is related to formatting the top navigation bar */
+/* This section formats the skip to main content link */
+
+.skip_link {
+    display: flex;
+    font-size: 150%;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 2%;
+}
+
+
+/* This section is related to formatting the top navigation bar */
+
 
 .nav_bar ul {
   display: flex;
   align-items: center;
   list-style-type: none;
   margin: 0;
-  padding: 3%;
   background-color: black;
 }
 
