@@ -1,0 +1,10 @@
+/* This sectionn is formats the video */
+
+#welcome_video {
+    display: flex;
+    justify-content: center;
+}
+
+#welcome_video video{
+    border: 10px solid darkgray;
+}

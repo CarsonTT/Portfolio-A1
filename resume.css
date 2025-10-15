@@ -1,0 +1,59 @@
+body, html {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+
+/* This sectionn is related to formatting the top navigation bar */
+
+.nav_bar ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 3%;
+  background-color: black;
+}
+
+.nav_bar li {
+  margin: 2%;
+}
+
+.nav_bar a{
+    color: white;
+    font-size: 200%;
+    text-decoration: none;
+    text-align: center;
+}
+
+.nav_bar a:hover{
+    background-color: rgb(18, 18, 18);
+}
+
+.nav_bar p {
+    font-size: 200%;
+    color: white;
+}
+
+
+/* This section formats the page title */
+
+h1 {
+    color: white;
+    text-align: left;
+    font-size: 450%;
+    padding-left: 10%;
+    margin: 0px;
+    background-color: black;
+    
+}
+
+
+/* This section formats the resume pdf */
+
+#resume_container {
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+}
