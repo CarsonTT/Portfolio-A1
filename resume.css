@@ -8,7 +8,7 @@ body, html {
 /* This section formats the skip to main content link */
 
 .skip_link {
-    display: flex;
+    display: inline-block;
     font-size: 150%;
     color: whitesmoke;
     text-decoration: none;
@@ -56,8 +56,7 @@ h1 {
     font-size: 450%;
     padding-left: 10%;
     margin: 0px;
-    background-color: black;
-    
+    background-color: black; 
 }
 
 
